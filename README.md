@@ -10,8 +10,8 @@ Minimum Requirements
 
 ### Add Firebase
 - Create a Firebase project
-- Add your own google-services.json file by following https://firebase.google.com/docs/flutter/setup?authuser=0&platform=android
-- Add your own GoogleService-Info.plist by following https://firebase.google.com/docs/flutter/setup?authuser=0&platform=ios
+- Add your own google-services.json file by following https://firebase.flutter.dev/docs/installation/android
+- Add your own GoogleService-Info.plist by following https://firebase.flutter.dev/docs/installation/ios
 - Enable Clound Firestore on your firebase project panel and set database rules to allow read, write: if request.auth.uid != null;
 
 Feature Requirements (Still under construction).
