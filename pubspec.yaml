@@ -1,0 +1,40 @@
+name: authy
+description: An example Flutter Auth Application
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  flutter_signin_button: ^1.1.0
+  font_awesome: ^5.10.1
+  google_fonts: ^1.1.1
+  firebase_core: ^0.5.3
+  firebase_auth: ^0.18.4+1
+  provider: ^4.3.2+3
+  rxdart: ^0.25.0
+  cloud_firestore: ^0.14.4
+  loading_overlay: ^0.2.1
+  flutter_login_facebook: ^0.4.2+1
+  google_sign_in: ^4.5.6
+  apple_sign_in: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+

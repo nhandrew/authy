@@ -1,0 +1,8 @@
+<resource>
+    <string name="app_name">Authy</string>
+    <!-- Replace with Your Facebook APPID -->
+    <string name="facebook_app_id">819537355262121</string>
+    <!-- Replace with Your Facebook Scheme -->
+    <string name="fb_login_protocol_scheme">fb819537355262121</string>
+</resource>
+
