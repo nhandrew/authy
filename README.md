@@ -23,7 +23,7 @@ Feature Requirements (Still under construction).
 - From the Authentication portion of your firebase project panel, enable Facebook authentication under the sign-in method tab.
 - Fill in App ID and App Secret with Values from your Facebook App.
 
-### Apple Sign IN
+### Apple Sign In
 
 ### Phone Auth
 - Enable Apple Push Notifications
