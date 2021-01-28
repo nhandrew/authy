@@ -27,10 +27,12 @@ dependencies:
   apple_sign_in: ^0.1.0
 
 dev_dependencies:
+  change_app_package_name: ^0.1.2
   flutter_test:
     sdk: flutter
 
 flutter:
+
 
   uses-material-design: true
 
