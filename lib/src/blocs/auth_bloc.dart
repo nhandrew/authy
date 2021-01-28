@@ -300,6 +300,7 @@ class AuthBloc {
 
   signinApple() async {
     if (!await AppleSignIn.isAvailable()) {
+      _errorMessage.sink.add('This Device is not eligible for Apple Sign in');
       return null; //Break from the program
     }
 
