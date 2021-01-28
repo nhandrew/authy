@@ -6,7 +6,7 @@ A complete authentication example for Flutter and Firebase
 
 Authy contains multiple methods of authentication, each with their own requirments.  
 
-Minimum Requirements
+## Minimum Requirements
 
 ### Add Firebase
 - Create a Firebase project
@@ -14,7 +14,7 @@ Minimum Requirements
 - Add your own GoogleService-Info.plist by following https://firebase.flutter.dev/docs/installation/ios
 - Enable Cloud Firestore on your firebase project panel and set database rules to allow read, write: if request.auth.uid != null;
 
-Feature Requirements (Still under construction).
+## Feature Requirements (Still under construction).
 
 ### Email/Password Authentication
 - From the Authentication portion of your firebase project panel, enable email/password authentication under the sign-in method tab.
